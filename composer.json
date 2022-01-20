@@ -1,0 +1,16 @@
+{
+    "name": "yigitcicek/composer-test",
+    "description": "Page",
+    "homepage": "https://www.gitlab.com/yigitcicek/composer-test",
+    "type": "project",
+    "license": "proprietary",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@gitlab.company.com:test/package-name.git"
+        }
+    ],
+    "require": {
+        "test/package-name": "^1.0.0"
+    }
+}
